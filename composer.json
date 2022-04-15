@@ -1,0 +1,20 @@
+{
+    "name": "cabox/workspace",
+    "autoload": {
+        "psr-4": {
+            "Cabox\\Workspace\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tpuljak",
+            "email": "tpuljak@gmail.com"
+        }
+    ],
+    "require": {
+	    "infobip/infobip-api-php-client": "3.2.0",
+        "guzzlehttp/guzzle": "^7.4",
+		"ext-curl": "*",
+		"ext-json": "*"
+    }
+}
